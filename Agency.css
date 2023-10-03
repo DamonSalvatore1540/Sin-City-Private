@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    scroll-behavior: smooth;
+    cursor:url('Icon/magnifying-glass-solid.svg'),auto;
+}
+.head
+{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Image/td.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top:0px;
+    height: fit-content;
+}
+.carousel-item img
+{
+    height:600px;
+    width: 100%;
+}
+.head ul li 
+{
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+}
+.head ul li a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color:grey;
+    font-size: medium;
+    transition: 0.3s ease-in-out;
+}
+.head ul li a:hover
+{
+    color: darkgreen;
+}
+#navs
+{    
+    position: absolute;
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    position: fixed;
+    height: 80px;
+}
+.navbar-color
+{
+    transition: all 0.3s ease-in-out;
+    height:fit-content;
+    border-bottom: 1px solid dimgray;
+}
+#navs nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul li 
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 13px 15px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    height: fit-content;
+    text-transform: capitalize;
+    color:rgb(161, 160, 160);
+    transition: 0.3s ease-in-out;
+}
+.logo
+{
+    font-size: 25px;
+}
+.ico
+{
+    color:rgb(110, 109, 109);
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+nav ul li a:hover
+{
+    color: darkgreen;
+}
+.slider
+{
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    height: 240vh;
+}
+.slider img
+{
+    width: 100%;
+    height: fit-content;
+}
+.qt
+{
+    color:rgb(161, 160, 160);
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+.qt1
+{
+    color:rgb(161, 160, 160);
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;    
+}
+.qt2
+{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+#info
+{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 10px;
+    font-size:larger;
+    height:fit-content;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Image/inves.jpg);
+    background-size: cover;
+    font-weight: bold;
+}
+.img
+{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.img ul li
+{
+    display: inline-block;
+    height: fit-content;
+}
+.img ul li img
+{
+    text-decoration: none;
+    list-style-type: none;
+    height: 400px;
+    width: 100%;   
+    border-radius: 20px;
+}
+#About
+{
+    padding-top: 5px;
+    color:white;
+    height: fit-content;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Image/about.jpg);
+    background-size: cover;
+}
+#About ul li
+{
+    height: fit-content;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+#typewriter
+{
+    color: white;
+    text-transform: capitalize;
+    transition: ease-in-out 0.3s;
+}
+#cursor
+{
+    color:red;
+    animation: blink 1s linear infinite;
+    transition: 0.3s ease-in-out;
+}
+/* @keyframes blink {
+    0%
+    {
+        opacity: 100%;
+    }
+    50%
+    {
+        opacity: 0%;
+    }
+} */
+.About ul li a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+#Gallery
+{
+    margin-top: 5px;
+}
+#Gallery ul li
+{
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#gal
+{
+    background-color: black;
+    height: fit-content;
+    color: white;
+}
+.back{
+    
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Image/agency.webp);
+    background-size: cover;
+}
+.build img
+{
+    height: 300px;
+    max-width: 100%;
+    margin-top: 5px;
+    align-items: center;
+}
+.build h5
+{
+    color: white;
+    text-align: center;
+}
+.of img
+{
+    height: 200px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.of h5
+{
+    color: white;
+}
+.op
+{
+    margin-left: 420px;
+}
+.c 
+{
+    margin-top: 30px;
+    height: 700px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Image/case.jpg);
+    background-size: cover;
+}
+
+#case
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Image/case.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+}
+#btn1
+{
+    background-color: red;
+    margin-left: 50px;
+}
+#btn2
+{
+    background-color: red;
+    /* padding: 8px; */
+    margin-left: 50px;
+}
+#btn3
+{
+    /* outline: none;
+    border: none; */
+    background-color: red;
+    margin-left: 50px;
+    /* padding: 8px; */
+}
+#btn4
+{
+    /* outline: none;
+    border: none; */
+    background-color: red;
+    margin-left: 80px;
+    /* padding: 8px; */
+}
+#btn5
+{
+    /* outline: none;
+    border: none; */
+    background-color: red;
+    margin-left: 20px;
+    /* padding: 5px; */
+}
+#btn6
+{
+    /* outline: none;
+    border: none; */
+    background-color: red;
+    margin-left: 70px;
+    /* padding: 8px; */
+}
+#team
+{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+#img
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Image/team.png);
+    background-size: cover;
+    height: auto;
+    max-width: 100%;
+    color: white;
+}
+#mypic
+{
+    height: auto;
+    max-width: 100%;
+    margin-top: 5px;
+}
+#rec
+{
+    height: auto;
+    max-width: 100%;
+}
+#h5
+{
+    text-align: center;
+}
+.h4{
+    font-size: 20px;
+}
+#tech{
+    height: auto;
+    max-width: 100%;
+}
+form
+{
+    align-content: center;
+    margin: 10px;
+}
+input
+{
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid black;
+    padding-right: 10px;
+    text-align: center;
+}
+textarea
+{
+    background-color: transparent;
+    border-color: black;
+    outline-color: black;
+    height:100px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+#btn7
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: 0px;
+    border: 0px;
+    background-color: red;
+}
+#cont
+{
+    /* text-align: center; */
+    height: fit-content;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(Image/Homicide.jpg);
+}
+.contact
+{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Image/contact.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+#btn8
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: 0px;
+    border: 0px;
+    background-color: red;
+}
+.copy
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+#spn1
+{
+    border-right: 2px solid red;
+    color: green;
+}
